@@ -12,11 +12,23 @@ class Resume extends Component {
         </div>
       })
       var work = this.props.data.work.map(function (work) {
-        return <div key={work.company}><h3>{work.company}</h3>
+        return <div key={work.company}>
+          <h3>{work.company}</h3>
           <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
           <p>{work.description}</p>
         </div>
       })
+
+      var projects = this.props.data.projects.map(function (projects) {
+        return <div key={projects.name}>
+          <h3>{projects.name}</h3>
+          <p className="info"><em className="date">{projects.year}</em></p>
+          <p>{projects.description}</p>
+          <p className="info">Tech Stack: <em>{projects.techStack}</em></p>
+          <p className="info">Link: <em><a href={projects.link}>{projects.link}</a></em></p>
+        </div>
+      })
+
       var skills = this.props.data.skills.map(function (skills) {
         var projectImage = 'images/tech/' + skills.image;
         return <div key={skills.name} className="columns feature-item">
@@ -28,6 +40,7 @@ class Resume extends Component {
     }
 
     return (
+
       <section id="resume">
 
         <div className="row education">
@@ -47,7 +60,7 @@ class Resume extends Component {
 
         <div className="row work">
           <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>Work Experience</span></h1>
           </div>
 
           <div className="nine columns main-col">
@@ -55,7 +68,17 @@ class Resume extends Component {
           </div>
         </div>
 
-        <div className="row skill">
+        <div className="row project">
+          <div className="three columns header-col">
+            <h1><span>Projects</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+            {projects}
+          </div>
+        </div>
+
+        {/*<div className="row skill">
           <div className="three columns header-col">
             <h1><span>Favorite Tech</span></h1>
           </div>
@@ -66,7 +89,7 @@ class Resume extends Component {
               {skills}
             </ul>
           </div>
-        </div>
+        </div>*/}
       </section>
     );
   }
