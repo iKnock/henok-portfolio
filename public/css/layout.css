@@ -266,6 +266,12 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+
+.project {
+   margin-bottom: 0px;
+   padding-bottom: 4px;   
+}
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -421,6 +427,7 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 90px;
    padding-bottom: 60px;
 }
+
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
@@ -443,6 +450,7 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
