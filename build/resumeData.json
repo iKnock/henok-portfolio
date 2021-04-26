@@ -1,0 +1,209 @@
+{
+  "main": {
+    "name": "Henok Ergana Selato",
+    "occupation": "Full Stack developer",
+    "description": "With a demonstrated history of working in the software development industry. Skilled in Java, Javascript, Node.js and HTML5. Strong engineering profession with a Master’s Degree in Computer Engineering focusing on Enterprise Systems from Università di Pisa. ",
+    "employer": "Amaris Consulting",
+    "jobDescription": "Consulting Software Engineer",
+    "image": "profilepic.jpg",
+    "bio": "I’m a Software Developer based in Biella, Italy. I got my Bsc degree in 2009 from Admas University College by Information and Communication Technology (ICT). After that I worked at Lt Software engineering as a programmer and went to Information and Network Security Agency (INSA) and worked for three years and ten months as a software developer. Subsequently I start to work as an independent application developer and worked some apps and freelance works. Then I enrolled for the Master of Science in Computer Engineering at the university of Pisa and got my Msc degree from there. Currently I’m working as a Software Engineering Consultant for Banca Sella on behalf fo Amaris Consulting in Biella Italy.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "ergana.henok@gmail.com",
+    "phone": "+39-3512-566-038",
+    "address": {
+      "street": "Via Addis Ababa",
+      "city": "Biella",
+      "state": "Italy",
+      "zip": "13900"
+    },
+    "website": "http://www.henokdev.com",
+    "resumedownload": "https://drive.google.com/file/d/1424bhoN0KpV4oY5FX5F95SHhOFlVzRUm/view?usp=sharing",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/henok-selato-78a8bb69/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/iKnock",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Università di Pisa",
+        "degree": "Masters of Science in Computer Engineering",
+        "graduated": "February 2019",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school": "Admas University College",
+        "degree": "Bachelor of Science in Information And Communication Technology",
+        "graduated": "September 2009",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work": [
+      {
+        "company": "Amaris Consulting",
+        "title": "Consulting Software Engineer ",
+        "years": "July 2018 - Present",
+        "description": "Working on Identity and Access Management System for Italian based bank. Using OpenAM which is access management, entitlements and federation server platform which is written in Java. On a daily basis i used OpenAM, Java, Shell Script, Tomcat Webserver, Oracle Database and SoapUI to develop, maintain and test the Identity and Access Management Platform of the organization."
+      },
+      {
+        "company": "Start-up Entrepreneur",
+        "title": "Freelance Application Developer",
+        "years": "March 2014 - September 2015",
+        "description": "I have been developing Software projects which both web and mobile applications for different client using tech stacks like Angular.js, node.js and mysql."
+      },
+      {
+        "company": "Information Network Security Agency",
+        "title": "Senior Software Engineer",
+        "years": "June 2010 - Feburary 2014",
+        "description": "Requirement gathering and engineering, System analysis and design, User Interface design, Server side development, Database development,Deploying and unit testing, Preparing appropriate documentation, Prepare timely reports for the concerning body. At INSA the main tech stack used for developing the projects are Java Server Faces (JSF), Java persistence API (JPA) and Oracle Database managment system."
+      },
+      {
+        "company": "Lt Software Engineering",
+        "title": "Programmer",
+        "years": "September 2009 - June 2010",
+        "description": "My Main Task were System analysis and design, User Interface design, Server side development, Database development, Preparing appropriate documentation using Tech stacks like php, javascript and Mysql for database management system."
+      }
+    ],
+    "projects": [
+      {
+        "name": "MapDataCrawler",
+        "year": "February 2017",
+        "description": "is an Application to fetch data from Openstreet map by consuming the read only Overpass API. Basically using this App a user can partition or make grid to a certain geographical area (a rectangle on a map) according to user provided inputs (the four corner of the rectangle and width of square box for the grid), Fetch data describing each box (Grid) from Openstreet map using the read only Overpass API, Preprocess and store the fetched data in appropriate way, Present the result ",
+        "techStack": "bootstrap.js, Angular.js, Turf.js, ploty.js, leaflet.js, Node.js, Overpass API (openstreet map), MongoDB",
+        "link": "https://iknock.github.io/MapDataCrawler/"
+      },
+      {
+        "name": "vcs-unipi (visitor check in system for university of pisa)",
+        "year": "December 2015",
+        "description": "This system is developed for a term project of the course in title “concurrent and distributed systems”. The project is Distributed multithreaded application that exploits the power of Java EE 7 freamwork. The idea is to create and manage a system that handles visitors check-In (Entrance) to a certain compound (university, research center, security firm or else…) in a distributed manner which consists of different actors like security personnel at the gate, the visitor, the inviter (who invite the visitor), the security Guard supervisors who are accessing the system from different places (Computers) with different authorization level. The system will be a web based system so that users of the system which are located at different nodes can access the system seamlessly. ",
+        "techStack": "Java server pages(JSP), Servlet, Enterprise java beans(EJB), Java persistence technology(JPA), JAAS, Mysql, Glassfish Application Server",
+        "link": "https://iknock.github.io/vcs-unipi/"
+      },
+      {
+        "name": "Tech-MaternityCare Android Mobile Application",
+        "year": "April 2014",
+        "description": "It is a mHealth mobile app to handle pregnancy followup in an easy and effective manner. The application calculates the gestational age (GA) and Expected date of delivery (EDD) of a pregnant mother both in Ethiopian and Gregorian calendar. The Android app (build using Phonegap) can be installed and run on any android device (tablet and phone) having an android version 2.3 and above. Note: The application is developed to participate in the African Android Challenge 2014 and not uploaded to google playstore. ",
+        "techStack": "HTML5, CSS3, Javascript, Jquery, Phonegap(Cordova)",
+        "link": "https://www.youtube.com/watch?v=0ikdjXNf_u4&t=1s&ab_channel=HenokErgana"
+      },
+      {
+        "name": "Addis Essentials Android Mobile Application",
+        "year": "February 2014",
+        "description": "This project aims to develop an android mobile application which provides its users the most essential phone in the city of Addis. The application has categories like hospitals, fire brigade stations, Mass Medias, Police and the likes which hold list of phone numbers of different organizations and their branches. The app runs on any android device (tablet and phone) having an android version 2.3 and above. Note: The application is developed to participate in the African Android Challenge 2014 and not uploaded to google play store yet. ",
+        "techStack": "Native Android SDK (Java)",
+        "link": "https://www.youtube.com/watch?v=ooc3G6Qhi_U&feature=youtu.be&ab_channel=HenokErgana"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "description": "Java was my first programming language that I started using in college years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
+        "image": "java.jpg"
+      },
+      {
+        "name": "React Js",
+        "description": "I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
+        "image": "react.jpg"
+      },
+      {
+        "name": "Angular JS",
+        "description": "I enjoy MeteorJS for it's ease of configuration and its ability to get a full stack prototype up and running quickly. I used MeteorJS in a team for a Startup Programming class in UVIC in conjunction with React to build the MVP for Smirkspace (below in portfolio)",
+        "image": "angularjs.png"
+      },
+      {
+        "name": "Node JS",
+        "description": "Node JS is my server-side scripting language of choice. The bulk of my experience with it has been in conjunction with MeteorJS-based projects",
+        "image": "node.jpg"
+      },
+      {
+        "name": "Bootstrap 4",
+        "description": "I use Bootstrap more often than not when designing the layout for my sites. It is the framework I am most familiar with and can therefore design more quickly than with others.",
+        "image": "bootstrap.jpg"
+      },
+      {
+        "name": "Mysql",
+        "description": "I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image": "mysql.png"
+      },
+      {
+        "name": "Oracle",
+        "description": "I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image": "oracle.png"
+      },
+      {
+        "name": "MongoDB",
+        "description": "I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
+        "image": "mongo.jpg"
+      },
+      {
+        "name": "Tomcat",
+        "description": "I use Heroku as my hosting platform for most of my projects because so far they are all unpaid and their free tier is convenient. I also appreciate its integration with Github for such simple deployment.",
+        "image": "tomcat.png"
+      },
+      {
+        "name": "Firebase",
+        "description": "I use Heroku as my hosting platform for most of my projects because so far they are all unpaid and their free tier is convenient. I also appreciate its integration with Github for such simple deployment.",
+        "image": "firebase.png"
+      },
+      {
+        "name": "Heroku",
+        "description": "I use Heroku as my hosting platform for most of my projects because so far they are all unpaid and their free tier is convenient. I also appreciate its integration with Github for such simple deployment.",
+        "image": "heroku.jpg"
+      },
+      {
+        "name": "Git",
+        "description": "I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image": "git.jpg"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
